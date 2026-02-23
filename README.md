@@ -53,16 +53,16 @@ The scanner performs a wide range of checks to identify security weaknesses:
 
 1. **Clone the repository**
 
-   ```bash
+```bash
   git clone https://github.com/ecsanga/SAYARI.git
   cd SAYARI
-   ```
+```
 
 2. **Install dependencies**
 
-   ```bash
+```bash
    pip3 install -r requirements.txt
-   ```
+```
 
 ---
 
