@@ -1,0 +1,23 @@
+# VAPT Scanner Requirements
+# Install with: pip install -r requirements.txt
+
+# Core HTTP Requests
+requests>=2.31.0
+urllib3>=2.0.0
+
+# Optional: For advanced features
+colorama>=0.4.6
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
+
+# SSL/TLS Analysis
+cryptography>=41.0.0
+
+# Network utilities
+dnspython>=2.4.0
+
+# Optional: Web scraping
+selenium>=4.15.0
+
+# Optional: For reporting
+jinja2>=3.1.0
