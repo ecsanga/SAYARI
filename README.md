@@ -1,4 +1,3 @@
-````markdown
 # SAYARI VAPT Scanner
 
 ================================================================================
@@ -145,10 +144,4 @@ urllib3>=1.26.0
 5. **Reporting** – Aggregates findings, calculates a risk score, and generates dual-format reports.
 
 ---
-
-
-## Show your support
-
-Give a ⭐ if this project helped you!
-
-````
+`
