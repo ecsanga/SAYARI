@@ -1,16 +1,16 @@
 # SAYARI VAPT Scanner
 ## Project Introduction
-================================================================================
+
    ███████╗ █████╗ ██╗   ██╗ █████╗ ██████╗ ██╗
    ██╔════╝██╔══██╗╚██╗ ██╔╝██╔══██╗██╔══██╗██║
    ███████╗███████║ ╚████╔╝ ███████║██████╔╝██║
    ╚════██║██╔══██║  ╚██╔╝  ██╔══██║██╔══██╗██║
    ███████║██║  ██║   ██║   ██║  ██║██║  ██║██║
    ╚══════╝╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝
-================================================================================
+
   Vulnerability Assesment and Penetration Testing (VAPT) Scanner
   Created by Dr3amy | For Authorized Use Only
-================================================================================
+
 
 A comprehensive, all-in-one Vulnerability Assessment and Penetration Testing (VAPT) scanner written in Python. This tool automates the detection of security misconfigurations and common web vulnerabilities, generating professional reports with risk scores and interactive charts.
 
