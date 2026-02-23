@@ -1,12 +1,6 @@
 # SAYARI VAPT Scanner
 ## Project Introduction
 
-███████╗ █████╗ ██╗   ██╗ █████╗ ██████╗ ██╗
-██╔════╝██╔══██╗╚██╗ ██╔╝██╔══██╗██╔══██╗██║
-███████╗███████║ ╚████╔╝ ███████║██████╔╝██║
-╚════██║██╔══██║  ╚██╔╝  ██╔══██║██╔══██╗██║
-███████║██║  ██║   ██║   ██║  ██║██║  ██║██║
-╚══════╝╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝
 
 Vulnerability Assesment and Penetration Testing (VAPT) Scanner
 Created by Dr3amy | For Authorized Use Only
