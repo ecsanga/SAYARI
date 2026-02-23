@@ -1,7 +1,6 @@
 ````markdown
 # SAYARI VAPT Scanner
 
-```text
 ================================================================================
    ███████╗ █████╗ ██╗   ██╗ █████╗ ██████╗ ██╗
    ██╔════╝██╔══██╗╚██╗ ██╔╝██╔══██╗██╔══██╗██║
@@ -13,7 +12,7 @@
   Vulnerability Assesment and Penetration Testing (VAPT) Scanner
   Created by Dr3amy | For Authorized Use Only
 ================================================================================
-```
+
 A comprehensive, all-in-one Vulnerability Assessment and Penetration Testing (VAPT) scanner written in Python. This tool automates the detection of security misconfigurations and common web vulnerabilities, generating professional reports with risk scores and interactive charts.
 
 ---
@@ -80,7 +79,7 @@ The scanner performs a wide range of checks to identify security weaknesses:
 To run a scan against a target URL:
 
 ```bash
-python3 vapt_scanner.py https://example.com
+python3 sayari_scanner.py https://example.com
 ```
 
 ### Advanced Options
@@ -99,13 +98,13 @@ python3 vapt_scanner.py https://example.com
 Burp Suite is developed by PortSwigger and ZAP is maintained by OWASP.
 
 ```bash
-python3 vapt_scanner.py https://example.com --proxy http://127.0.0.1:8080
+python3 sayari_scanner.py https://example.com --proxy http://127.0.0.1:8080
 ```
 
 **Custom Timeout and User-Agent:**
 
 ```bash
-python3 vapt_scanner.py https://example.com --timeout 15 --user-agent "Googlebot"
+python3 sayari_scanner.py https://example.com --timeout 15 --user-agent "Googlebot"
 ```
 
 ---
@@ -114,13 +113,13 @@ python3 vapt_scanner.py https://example.com --timeout 15 --user-agent "Googlebot
 
 Upon completion, the scanner saves the results in the current directory with filenames based on the target domain and timestamp.
 
-1. **HTML Report (`*_vapt_*.html`)**
+1. **HTML Report (`*_sayari_*.html`)**
 
    * A visually appealing, responsive dashboard.
    * Includes severity distribution pie charts and category breakdown bar charts.
    * Expandable rows for detailed vulnerability descriptions and remediation advice.
 
-2. **JSON Report (`*_vapt_*.json`)**
+2. **JSON Report (`*_sayari_*.json`)**
 
    * Structured raw data suitable for CI/CD pipelines or further programmatic analysis.
 
