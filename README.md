@@ -55,7 +55,7 @@ The scanner performs a wide range of checks to identify security weaknesses:
    ```bash
   git clone https://github.com/ecsanga/SAYARI.git
    cd SAYARI
-````
+   ````
 
 2. **Install dependencies**
 
