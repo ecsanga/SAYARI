@@ -54,8 +54,8 @@ The scanner performs a wide range of checks to identify security weaknesses:
 1. **Clone the repository**
 
 ```bash
-  git clone https://github.com/ecsanga/SAYARI.git
-  cd SAYARI
+  git clone https://github.com/ecsanga/CHUNGUZA.git
+  cd CHUNGUZA
 ```
 
 2. **Install dependencies**
@@ -73,7 +73,7 @@ The scanner performs a wide range of checks to identify security weaknesses:
 To run a scan against a target URL:
 
 ```bash
-python3 sayari_scanner.py https://example.com
+python3 chunguza_scanner.py https://example.com
 ```
 
 ### Advanced Options
@@ -92,13 +92,13 @@ python3 sayari_scanner.py https://example.com
 Burp Suite is developed by PortSwigger and ZAP is maintained by OWASP.
 
 ```bash
-python3 sayari_scanner.py https://example.com --proxy http://127.0.0.1:8080
+python3 chunguza_scanner.py https://example.com --proxy http://127.0.0.1:8080
 ```
 
 **Custom Timeout and User-Agent:**
 
 ```bash
-python3 sayari_scanner.py https://example.com --timeout 15 --user-agent "Googlebot"
+python3 chunguza_scanner.py https://example.com --timeout 15 --user-agent "Googlebot"
 ```
 
 ---
@@ -107,13 +107,13 @@ python3 sayari_scanner.py https://example.com --timeout 15 --user-agent "Googleb
 
 Upon completion, the scanner saves the results in the current directory with filenames based on the target domain and timestamp.
 
-1. **HTML Report (`*_sayari_*.html`)**
+1. **HTML Report (`*_chunguza_*.html`)**
 
    * A visually appealing, responsive dashboard.
    * Includes severity distribution pie charts and category breakdown bar charts.
    * Expandable rows for detailed vulnerability descriptions and remediation advice.
 
-2. **JSON Report (`*_sayari_*.json`)**
+2. **JSON Report (`*_chunguza_*.json`)**
 
    * Structured raw data suitable for CI/CD pipelines or further programmatic analysis.
 
