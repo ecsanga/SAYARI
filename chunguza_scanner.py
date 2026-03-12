@@ -3,8 +3,8 @@
 ================================================================================
 ADVANCED VULNERABILITY ASSESSMENT AND PENETRATION TESTING (VAPT) SCANNER
 ================================================================================
-Author: Cybersecurity Engineer & VAPT Expert
-Version: 2.0
+Author: dr3amy
+Version: 1.0
 License: For authorized security testing only
 
 DISCLAIMER: This tool is intended for authorized security testing only.
@@ -281,12 +281,12 @@ class VAPTScanner:
         """Display scanner banner"""
         banner = f"""
 {Colors.CYAN}{'='*80}
-{Colors.BOLD}   ███████╗ █████╗ ██╗   ██╗ █████╗ ██████╗ ██╗
-{Colors.END}{Colors.CYAN}   ██╔════╝██╔══██╗╚██╗ ██╔╝██╔══██╗██╔══██╗██║
-{Colors.END}{Colors.CYAN}   ███████╗███████║ ╚████╔╝ ███████║██████╔╝██║
-{Colors.END}{Colors.CYAN}   ╚════██║██╔══██║  ╚██╔╝  ██╔══██║██╔══██╗██║
-{Colors.END}{Colors.CYAN}   ███████║██║  ██║   ██║   ██║  ██║██║  ██║██║
-{Colors.END}{Colors.CYAN}   ╚══════╝╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝
+{Colors.BOLD}   ███████╗ 
+{Colors.END}{Colors.CYAN}  
+{Colors.END}{Colors.CYAN}   
+{Colors.END}{Colors.CYAN}   
+{Colors.END}{Colors.CYAN}  
+{Colors.END}{Colors.CYAN}   
 {Colors.END}{Colors.CYAN}{'='*80}
 {Colors.GREEN}  Vulnerability Assesment and Penetration Testing (VAPT) Scanner
 {Colors.YELLOW}  Created by Dr3amy | For Authorized Use Only
